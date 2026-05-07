@@ -1,0 +1,14 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    restart: unless-stopped
+  redis:
+    image: redis:7-alpine
+    profiles: ["optional"]
+    restart: unless-stopped
