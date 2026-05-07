@@ -1,0 +1,1 @@
+export default async function BlogPost({params}:{params:Promise<{slug:string}>}){const {slug}=await params; return <article className='prose prose-invert py-8'><h1>{slug}</h1><p>مقال توعوي غير صريح يركز على الخصوصية والموافقة.</p></article>}

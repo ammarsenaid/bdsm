@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{--bg:#0a0a0b;--card:#121215;--gold:#c8a96b;--text:#f3ede1}
+html{scroll-behavior:smooth} body{background:radial-gradient(circle at top,#1a1a20,var(--bg));color:var(--text)}
+*:focus-visible{outline:2px solid var(--gold);outline-offset:2px}

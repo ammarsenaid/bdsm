@@ -1,0 +1,1 @@
+export default function Page(){return <div className='space-y-4 py-10'><h1 className='text-3xl font-bold'>faq</h1><p className='text-zinc-300'>Placeholder faq page for adults-only privacy-first community.</p></div>}

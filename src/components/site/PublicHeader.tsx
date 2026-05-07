@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export function PublicHeader({lang}:{lang:string}){return <header className='sticky top-0 border-b border-amber-200/20 bg-black/60 backdrop-blur'><nav className='mx-auto flex max-w-6xl items-center justify-between p-4'><Link href={`/${lang}`} className='text-amber-300 font-semibold'>مجلس نوار</Link><div className='flex gap-4 text-sm'><Link href={`/${lang}/community`}>المجتمع</Link><Link href={`/${lang}/forums`}>المنتديات</Link><Link href={`/${lang}/blog`}>المقالات</Link></div></nav></header>}

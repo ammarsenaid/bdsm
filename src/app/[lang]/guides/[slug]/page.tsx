@@ -1,0 +1,1 @@
+export default async function Guide({params}:{params:Promise<{slug:string}>}){const {slug}=await params; return <section className='py-8'><h1 className='text-2xl'>{slug}</h1><p>دليل عملي آمن.</p></section>}
