@@ -1,0 +1,2 @@
+-- Skeleton schema for Majlis Noir
+-- TODO: implement full tables and constraints for profiles/forums/posts/messages/reports/audit logs.

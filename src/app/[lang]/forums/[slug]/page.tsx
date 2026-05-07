@@ -1,0 +1,1 @@
+export default async function ForumTopic({params}:{params:Promise<{slug:string}>}){const {slug}=await params; return <div className='py-8'><h1 className='text-2xl'>موضوع: {slug}</h1><p>تذكير: لا تشارك معلوماتك الشخصية.</p></div>}

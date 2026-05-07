@@ -1,0 +1,4 @@
+-- Enable RLS for all private tables before production.
+-- TODO: users can read own private data only.
+-- TODO: public approved content readable publicly.
+-- TODO: moderators can review only reported messages.

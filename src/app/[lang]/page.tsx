@@ -1,0 +1,1 @@
+export default async function Home(){return <section className='space-y-6 py-16'><p className='text-amber-300'>Majlis Noir | مجلس نوار</p><h1 className='text-4xl font-bold'>مجتمع عربي خاص للبالغين فقط</h1><p className='max-w-2xl text-zinc-300'>مساحة راقية وآمنة للتواصل والنقاش وبناء الثقة بين البالغين المتوافقين، مع احترام الخصوصية والحدود الشخصية.</p></section>}
